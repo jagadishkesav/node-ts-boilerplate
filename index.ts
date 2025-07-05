@@ -1,7 +1,7 @@
-import config from './config';
-import { connectDatabase } from './config/dbConnection';
-import app from './config/express';
-import { logger } from './lib/logger';
+import config from './src/config';
+import { connectDatabase } from './src/config/dbConnection';
+import app from './src/config/express';
+import { logger } from './src/lib/logger';
 
 const { port } = config;
 

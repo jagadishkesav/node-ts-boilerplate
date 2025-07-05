@@ -44,12 +44,12 @@ export const logger = createLogger({
   transports: [
     // Allow to print all the error level messages inside the error.log file
     new transports.File({
-      filename: 'logs/error.log',
+      filename: 'src/logs/error.log',
       level: 'error'
     }),
     // Allow to print all the error message inside the all.log file
     // also the error log that are also printed inside the error.log file
-    new transports.File({ filename: 'logs/all.log' }),
+    new transports.File({ filename: 'src/logs/all.log' }),
     // Allow the console to print the messages
     new transports.Console({
       stderrLevels: ['error']
