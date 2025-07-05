@@ -3,6 +3,8 @@
     {
       "name": "Node TS Boilerplate",
       "script": "index.ts",
+      "interpreter": "ts-node",
+      "node_args": ["-r", "tsconfig-paths/register"],
       "instances": 1,
       "autorestart": false,
       "watch": false,
