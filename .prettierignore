@@ -1,0 +1,6 @@
+# Prettier ignore below files and folders
+node_modules
+package-lock.json
+storybook-static
+build
+README.md
